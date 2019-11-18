@@ -179,7 +179,7 @@ function changeCards()
 	//imgHTML += cards[randomNum];
 	//imgHTML += ".jpg' alt='" + cards[randomNum] + "' />";
 	//document.getElementById("images").innerHTML = imgHTML;
-	let newImage = "cards/" + cards[randomNum] + ".jpg";
+	let newImage = "cards/" + cards[randomNum] + ".JPG";
 	let randomPos = Math.floor(Math.random()*100);
 	document.getElementById("imageToChange").src = newImage;
 	document.getElementById("imageToChange").style.display = "block";
